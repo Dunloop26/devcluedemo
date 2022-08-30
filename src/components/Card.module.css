@@ -15,19 +15,33 @@
 }
 
 .card-container {
-	@apply relative grid grid-rows-[9.5rem_auto] grid-cols-[9.5rem] gap-4 shadow-md rounded-md w-fit h-60 p-4 m-6;
-	@apply before:contents before:-inset-3 before:bg-white before:absolute before:-z-10 before:shadow-md before:rounded-md before:border-2 before:border-gray-100;
+	@apply grid grid-rows-[10.25rem_auto] grid-cols-[10.25rem] bg-white gap-4 shadow-md rounded-md w-fit h-60 p-2 border-2 border-gray-200;
+}
+
+.card-holder {
+	@apply flex flex-col rounded-md justify-center items-center gap-3 row-start-1 row-end-3 p-3;
+}
+
+.card-container.is-hidden {
+	@apply grid-rows-1 grid-cols-1 items-center justify-center;
+}
+
+.is-hidden {
+		@apply bg-gradient-to-br from-[#D75FEB] to-[#9120B9];
 }
 
 .frame {
-	@apply flex flex-1 justify-center items-center bg-white overflow-hidden rounded-lg h-full w-full;
+	@apply flex justify-center items-center bg-white overflow-hidden rounded-lg w-full;
 }
 
 .title-frame {
-	@apply frame;
+	@apply frame p-2;
 }
 
 .image-frame {
-	@apply frame;
+	@apply frame h-full flex-1;
 }
 
+.backimg {
+	@apply w-[42.5%] mb-3;
+}
