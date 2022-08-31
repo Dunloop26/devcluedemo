@@ -1,0 +1,19 @@
+<svg width="352" height="370" viewBox="0 0 352 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_0_24" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="352" height="370">
+<rect width="352" height="370" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_24)">
+<rect width="352" height="370" fill="white"/>
+<circle cx="175.5" cy="410.5" r="117.5" fill="#574157"/>
+<circle cx="176" cy="138" r="76" fill="#7BA7AA"/>
+<path d="M130 229C105.699 229 86 209.301 86 185C86 160.699 105.699 141 130 141L222 141C246.301 141 266 160.699 266 185C266 209.301 246.301 229 222 229L130 229Z" fill="#E8B4A3"/>
+<path d="M104 146C104 117.833 126.833 95 155 95H197C225.167 95 248 117.833 248 146V223.5C248 251.667 225.167 274.5 197 274.5H155C126.833 274.5 104 251.667 104 223.5L104 146Z" fill="#EDCEC4"/>
+<path d="M132 218C132 206.954 140.954 198 152 198H199C210.046 198 219 206.954 219 218V280C219 282.761 216.761 285 214 285H137C134.239 285 132 282.761 132 280V218Z" fill="#39BEC7"/>
+<path d="M156 214.456C156 209.233 160.233 205 165.456 205H186.358C191.683 205 196 209.317 196 214.642C196 217.375 194.858 220.015 192.732 221.732C180.275 231.794 172.003 231.052 159.529 221.708C157.259 220.009 156 217.291 156 214.456Z" fill="white"/>
+<circle r="11.5" transform="matrix(-1 0 0 1 146.5 173.5)" fill="black"/>
+<circle r="11.5" transform="matrix(-1 0 0 1 205.5 173.5)" fill="black"/>
+<rect x="130.589" y="138.338" width="38" height="15" rx="7.5" transform="rotate(15 130.589 138.338)" fill="#367F84"/>
+<rect x="189.882" y="138" width="38" height="15" rx="7.5" transform="rotate(15 189.882 138)" fill="#367F84"/>
+<rect x="85" y="62" width="111" height="63" rx="31.5" fill="#39BEC7"/>
+</g>
+</svg>
