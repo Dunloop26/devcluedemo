@@ -39,9 +39,13 @@
 }
 
 .image-frame {
-	@apply frame h-full flex-1;
+	@apply frame h-full flex-1 max-h-[8.5rem];
 }
 
 .backimg {
 	@apply w-[42.5%] mb-3;
+}
+
+.mainimg {
+	@apply h-full w-auto object-contain;
 }

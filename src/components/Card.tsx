@@ -46,7 +46,7 @@ export function Card({ type = CardType.developer, title = "", img = "", hidden =
 							: (
 								<>
 									<main className={styles.imageFrame}>
-										<img className={styles.backimg} src={mainImage} />
+										<img className={styles.mainimg} src={mainImage} />
 									</main>
 									<footer className={styles.titleFrame}>
 										<p className={styles.title}>{title}</p>
