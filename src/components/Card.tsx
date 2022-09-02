@@ -14,19 +14,19 @@ export interface CardProps {
 	type?: CardType;
 	title?: string;
 	img?: string;
-	hidden?: boolean;
+	visible?: boolean;
 }
 
-export function Card({ type = CardType.developer, title = "", img = "", hidden = true }: CardProps) {
+export function Card({ type = CardType.developer, title = "", img = "", visible = true }: CardProps) {
 
 	const [colorClass, setColorClass] = useState("");
 	const [mainImage, setMainImage] = useState("");
 
 	useEffect(() => {
 		const colorValue = styles[CardType[type].toString()];
-		const classValue = `${hidden ? styles.isHidden : colorValue}`;
+		const classValue = `${!visible ? styles.isHidden : colorValue}`;
 		setColorClass(classValue);
-	}, [type, hidden])
+	}, [type, visible])
 
 	useEffect(() => {
 		const cardTypeName = getCardTypeName(type)
@@ -39,7 +39,7 @@ export function Card({ type = CardType.developer, title = "", img = "", hidden =
 			<section className={`${styles.cardHolder} ${colorClass}`}>
 				{
 					(
-						hidden
+						!visible
 							? (
 								<img className={styles.backimg} src={gem} />
 							)
