@@ -1,27 +1,27 @@
 export const developerCardNames = [
-	"Antonio",
-	"Carlos",
-	"Carolina",
-	"Juan",
-	"Juanita",
-	"Manuel",
-	"Pedro",
+	"antonio",
+	"carlos",
+	"carolina",
+	"juan",
+	"juanita",
+	"manuel",
+	"pedro",
 ]
 
 export const moduleCardNames = [
-	"Comprobante",
-	"Contabilidad",
-	"Facturacion",
-	"Nomina",
-	"Recibo",
-	"Usuarios",
+	"comprobante",
+	"contabilidad",
+	"facturacion",
+	"nomina",
+	"recibo",
+	"usuarios",
 ]
 
 export const errorCardNames = [
 	"404",
-	"EncodingError",
-	"MemoryOutOfRange",
-	"NullPointer",
-	"StackOverflow",
-	"SyntaxError",
+	"encodingError",
+	"memoryOutOfRange",
+	"nullPointer",
+	"stackOverflow",
+	"syntaxError",
 ]

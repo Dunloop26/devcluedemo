@@ -12,7 +12,7 @@ const repositories: { [key: string]: RepositoryPromise } = {
 		pedro: import(`@assets/ui/PortraitPedro.svg`).then(toDefault),
 	},
 	module: {
-		comprobanteContable: import('@assets/ui/ModuloComprobanteContable.svg').then(toDefault),
+		comprobante: import('@assets/ui/ModuloComprobanteContable.svg').then(toDefault),
 		contabilidad: import('@assets/ui/ModuloContabilidad.svg').then(toDefault),
 		facturacion: import('@assets/ui/ModuloFacturacion.svg').then(toDefault),
 		nomina: import('@assets/ui/ModuloNomina.svg').then(toDefault),
